@@ -1,0 +1,212 @@
+/**{
+	outline: 2px solid red;
+}*/
+p {
+	color: #999;
+	font-size: 16px;
+}
+.btn{
+	border-radius: 0;
+	border: none;
+	margin: 1%;
+	color:white;
+	font-weight: bold;
+	padding: 2% 1%;
+	transition: all 0.3s;
+}
+.btn:hover{
+    color:#009CA8;
+}
+.boton-gris{
+	background: #323A45;
+	color:#ccc;
+}
+.boton-trans {
+	background-color: rgba(150, 150, 150, 0.3);
+}
+.bck{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.gasper{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+.gasper p{
+	color: white;
+}
+.grey-wrap {
+	background-color: #F4F4F4;
+	padding: 2%;
+	text-align: center;
+}
+
+/*Portafolio*/
+.thumbnail {
+	padding: 2%;
+	border-radius: 0;
+}
+.thumbnail img {
+	width: 100%;
+}
+.portafolio .row{
+	padding: 0 5% 5% 5%;
+}
+.portafolio .grey-wrap{
+	padding-bottom: 0.75%; 
+}
+.caption{
+	padding: 4px 0 0 0;
+}
+.caption h4{
+    font-weight: bold;
+}
+/*Call*/
+.call{
+	height: 360px;
+	background-image: url("../img/background/city.jpg");
+}
+.call-to{
+	padding: 4%;
+	line-height: 40px;
+}
+.call-to p{
+	font-size: 24px;
+	padding: 5%;
+}
+/*pricing*/
+.pricing .row{
+	padding: 0 4%;
+}
+.pricing .thumbnail{
+    padding: 35px 20px;
+    margin-top: 30px;
+}
+.type{
+	height: 100px;
+	background-color: #323A45;
+	color: white;
+	padding: 30px;
+}
+.red{
+    background-color: #0DC0C0;
+}
+.precio{
+	height: 150px;
+	background-color: #F4F4F4;
+	font-size: 20px;
+	padding: 50px 0;
+}
+.precio p{
+	color: #323A45;
+}
+.precio p span{
+	font-size: 30px;
+}
+.info{
+	padding: 30px;
+	padding-bottom: 0;
+}
+.info div{
+	border-bottom: 2px solid #F4F4F4;
+	padding: 15px;
+}
+.info .btn-lg{
+	padding: 6px 14%;
+}
+/* TESTIMONIALS */
+.testimonials{
+	padding: 4% 20%;
+}
+.testimonials h2{
+	font-size: 2.4em;
+}
+.testimonials img{
+	border-radius: 100%;
+	width: 10%;
+	margin: 2%;
+}
+.testimonials p{
+	font-size: 1.2 em;
+	line-height: 2;
+	color: black;
+}
+.negrita{
+	color:#2F3742;
+}
+/* CONTACT */
+.contactanos {   
+    background: url(../img/background/contactus.jpg);
+    background-size: cover;
+    color: white;  }
+.contacto {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2% 5% 0% 5%; }
+.contactanos h2 { 
+    font-size: 2.4em;
+    margin-bottom: 3%;  }
+.contactanos h3 { 
+    font-size: 1.7em;
+    padding: 3% 0%;
+    margin: 0%;  }
+.contactanos p { font-size: 1.2em; color: white;}
+.contactanos input {
+    width: 99%;
+    color: #979797;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 2%;
+    margin: 3% 0% 4% 0%;
+    display: block;
+    border: none;
+    background: rgba(255,255,255,0.1);   }
+.mensaje  { 
+    width: 99%;
+    height: 170px;
+    padding: 2%;
+    font-size: 1.2em;
+    border: none;
+    background: rgba(255,255,255,0.1);   }
+.contactanos .enviar { 
+    background: #2BBDBD;
+    color: white;
+    width: 120px;
+    border: none;
+    margin: 3% 0%;
+    padding: 15px;
+    display: block;
+    font-size: 1em;  
+}
+.about { padding-left: 6%; }
+.about p { 
+    margin: 4% 0% 5% 0%;
+    font-size: 1.1em;
+    line-height: 1.8;  }
+.about i { margin-right: 3%;}
+/*Follow*/
+.follow  { 
+	background-color:white; 
+    color: #969696;
+    padding: 4% 20%;  } 
+.follow h2 { 
+    font-size: 2.4em;
+    padding-bottom: 2%;
+    color: #333;
+}
+.follow p { 
+    font-size: 1.2em; 
+    line-height: 1.5;
+    margin-bottom: 5%;   }
+.follow i { 
+    font-size: 300%;
+    margin: 1%;  
+    color: #2F3742;  }
+/* FOOTER */
+.footer { 
+ background: #222222;
+ color: white;
+ padding: 1%;  }
