@@ -1,6 +1,36 @@
 /**{
 	outline: 2px solid red;
 }*/
+.shadow{background-image: url("../img/background/hero.jpg");background-size: cover;}
+.opacity{background-color: rgba(24,24,20,0.4);}
+span{font-size: 30px;}
+.list-unstyled{margin-top: 30px;font-family: PT Sans Narrow;}
+a{color: white;text-decoration: none;}
+a:hover{color: #60B6D7;text-decoration:none;}
+.text-center{color: #fdfdfd;margin-top: 40px;}
+h1.text-center{margin-top: 150px;}
+.button{margin-bottom: 250px;}
+.btn-active {color: #009CA8;}
+.btn-gris {background-color: #323A45;color: #ccc;}
+.btn-trans {background-color: rgba(150, 150, 150, 0.3);}
+.btn-blanco {background-color: rgba(250, 250, 250, 1);color: #555;}
+.btn-blanco:hover {background-color: #009CA8;color: white;}
+.btn-c1 {background-color: #0DC0C0;}
+.btn-c2 {background-color: #009CA8;}
+.btn-c2:hover {background-color: #009CA8;color: white;}
+.btn-c2, .btn-blanco {padding: 1%;margin: 5px 0;}
+.bg {background-size: cover;background-repeat: no-repeat;background-position: left top;}
+.icono1 {font-size: 50px;color: #009CA8;}
+.icono2 {font-size: 30px;color: #009CA8;}
+h3{color: black;}
+.box1{padding-right: 50px;padding-left: 50px;}
+.more{margin-bottom: 60px;}
+.more-features{margin-top: 10%;background-color: rgba(167,167,167,0.2);padding-top:20px;}
+.more-features img {width: 70%;margin-left: 15%;margin-bottom: 5%;}
+.more-features h4{text-align: center;}
+.row features{padding-left: 60px;padding-right: 60px;}
+
+
 p {
 	color: #999;
 	font-size: 16px;
@@ -98,7 +128,8 @@ p {
 .action {
     background: url(../img/background/city.jpg);
     background-size: cover;
-    color: white;  } 
+    color: white; 
+    margin-top: 0px !important}
 
 .accion {
     background-color: rgba(0, 0, 0, 0.4);
